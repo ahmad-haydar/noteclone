@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { BlockNoteView } from "@blocknote/mantine";
-import { useCreateBlockNote } from "@blocknote/react";
+import { useCreateBlockNote } from "@blocknote/react"; // Includes all functions for creating a block note
 import type { Block } from "@blocknote/core";
 import { FiPlus, FiMenu, FiTrash2, FiFileText } from "react-icons/fi";
 import { Geist, Geist_Mono } from "next/font/google";
